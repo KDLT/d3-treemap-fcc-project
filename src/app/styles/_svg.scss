@@ -8,7 +8,7 @@ svg#treemap {
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
-  overflow: visible;
+  overflow: hidden;
   //padding-bottom: 50px;
 }
 
@@ -16,6 +16,10 @@ svg#legend {
   background: ghostwhite;
   color:black;
   overflow: visible;
+}
+
+.legend-text {
+  text-anchor: middle;
 }
 
 // var legend = d3.select("#legend")
