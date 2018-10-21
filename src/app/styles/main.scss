@@ -9,8 +9,13 @@ html,body {
   font-size: 11px;
 }
 
-h1 {
+h1#chart-title {
+  font-size: 2rem;
   margin: 1rem; padding: 0;
+}
+
+#chart-subtitle {
+  font-size: 1.5rem;
 }
 
 #tooltip {
@@ -37,4 +42,16 @@ h1 {
 
 .group>rect:hover{
   stroke: lightslategrey;
+}
+
+#main-container>label {
+  font-size: 1.4rem;
+}
+
+#main-container>input {
+  transform: translateY(1px);
+  -webkit-transform: translateY(1px);
+  -moz-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  -o-transform: translateY(1px);
 }
